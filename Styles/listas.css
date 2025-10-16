@@ -1,0 +1,9 @@
+.section-list{
+    margin-bottom: 2rem;
+}
+
+.row{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0 ;
+}
