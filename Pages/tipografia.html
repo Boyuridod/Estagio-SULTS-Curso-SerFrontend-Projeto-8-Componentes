@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componentes</title>
+    <link rel="icon" href="../Public/Assets/gene-sequence-svgrepo-com.svg">
+
     <link rel="stylesheet" href="../Styles/normalize.css">
     <link rel="stylesheet" href="../Styles/index.css">
     <link rel="stylesheet" href="../Styles/tipografia.css">
-    <link rel="icon" href="../Public/Assets/gene-sequence-svgrepo-com.svg">
-</head>
+    <link rel="stylesheet" href="../libraries/highlightjs/styles/github-dark.min.css">
 
 <body>
     <header class="index-header">
@@ -19,25 +20,25 @@
             </a>
             <ul>
                 <li>
-                    <a href="index.html">Página inicial</a>
+                    <a href="../index.html">Página inicial</a>
                 </li>
                 <li>
-                    <a href="Pages/tipografia.html">Tipografia</a>
+                    <a href="tipografia.html">Tipografia</a>
                 </li>
                 <li>
-                    <a href="Pages/cards.html">Cards</a>
+                    <a href="cards.html">Cards</a>
                 </li>
                 <li>
-                    <a href="Pages/listas.html">Listas</a>
+                    <a href="listas.html">Listas</a>
                 </li>
                 <li>
-                    <a href="Pages/formulario.html">Formulário</a>
+                    <a href="formulario.html">Formulário</a>
                 </li>
                 <li>
-                    <a href="Pages/botoes.html">Botões</a>
+                    <a href="botoes.html">Botões</a>
                 </li>
                 <li>
-                    <a href="Pages/tabelas.html">Tabelas</a>
+                    <a href="tabelas.html">Tabelas</a>
                 </li>
             </ul>
         </nav>
@@ -181,14 +182,23 @@ int main(){
     return 0;
 }</code>
                 </pre>
-
                 <p>Pressione <kbd>ctrl + c</kbd></p>
             </article>
             <article>
                 <samp lang="en-us">Here we have a txt in english bro</samp>
             </article>
+            <article>
+                <h3>Datas e horários</h3>
+                <p>Este código está sendo desenvolvido em <time datetime="2025-10-16">16 de Outubro de 2025.</time></p>
+                <p>Este código está sendo desenvolvido em <time datetime="2025-10-16">16/10/2025.</time></p>
+                <p>Às <time datetime="2025-10-16T16:35:00-03:00">16:35</time>.</p>
+                <p>Acabei essa seção às <del><time datetime="16:38:00-03:00">16:38</time></del> <ins><time datetime="16:48:00-03:00">16:48</time></ins>.</p>
+                <p>Ainda não acabei, por isso risquei, agora são <time datetime="16:48:00-03:00">16:48</time>.</p>
+            </article>
         </section>
     </main>
+    <script src="../libraries/highlightjs/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>
