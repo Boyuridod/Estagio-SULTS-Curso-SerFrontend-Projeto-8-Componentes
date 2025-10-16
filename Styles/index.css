@@ -36,17 +36,17 @@ article{
     padding-top: 4rem;
 }
 
-.index-header, .index-main{
+.header, .main{
     font-size: 1.6rem;
 }
 
-.index-header{
+.header{
     background-color: var(--secondary-color);
     flex: 0 0 26rem;
 
 }
 
-.index-main{
+.main{
     background-color: var(--third-color);
     flex: 1 0;
     padding: 6.5rem 6rem 7.5rem;
@@ -62,17 +62,17 @@ a{
     border-radius: 5rem;
 }
 
-.index-nav{
+.nav{
     text-align: right;
     padding: 6.5rem 2.4rem 2.4rem;
 }
 
-.index-nav ul{
+.nav ul{
     padding: 0;
     list-style-type: none;
 }
 
-.index-nav ul a{
+.nav ul a{
     display: block;
     text-decoration: none;
     padding: 1.2rem 0;
@@ -80,12 +80,19 @@ a{
     transition: padding-right .2s, background-color .4s;
 }
 
-.index-nav ul a:hover{
+.nav ul a:hover, .nav ul a:focus{
     background-color: var(--third-color);
     padding-right: 1rem;
 }
 
-.index-nav li{
+.nav li{
     border-bottom: 1px solid var(--fourth-color);
     padding: .4rem 0rem;
+}
+
+.article-highlight{
+    border-left: 2px solid var(--primary-color);
+    padding-left: 2rem;
+    padding-top: 0;
+    margin-bottom: 5rem;
 }
