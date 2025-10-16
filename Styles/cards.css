@@ -1,0 +1,32 @@
+.card{
+    max-width: 740px;
+    background-color: var(--secondary-color);
+    padding: 0;
+}
+
+.card-content{
+    padding: 1em;
+}
+
+.card-content p, .card_title{
+    margin: 0;
+    padding: 0;
+}
+
+.card_title{
+    font-size: 1.75em;
+}
+
+.row{
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem 0 ;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.section-card{
+    margin-bottom: 2rem;
+}
