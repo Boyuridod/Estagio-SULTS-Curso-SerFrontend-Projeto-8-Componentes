@@ -1,0 +1,53 @@
+.row {
+    display: flex;
+    gap: 4rem;
+}
+
+.row>* {
+    flex: 1 0 0%;
+}
+
+.row .row {
+    padding-top: 0;
+    gap: 4rem;
+}
+
+.contato form input:not(type="submit"),
+.contato form textarea,
+.contato form select {
+    background-color: var(--background-color);
+    border-radius: 5px;
+    margin-bottom: 1.6rem;
+    border: 0;
+}
+
+.contato form input,
+.contato form label,
+.contato form textarea,
+.contato form select {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    border-radius: 5px;
+}
+
+.contato form input[type="radio"] {
+    width: auto;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    /* border: 2px solid var(--fifth-color); */
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--background-color);
+    padding: 1em 0;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--primary-color);
+    color: var(--fifth-color);
+}

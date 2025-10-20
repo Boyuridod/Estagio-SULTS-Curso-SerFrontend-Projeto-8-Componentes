@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Componentes</title>
+    <title>Componentes - Formulários</title>
     <link rel="icon" href="../Public/Assets/gene-sequence-svgrepo-com.svg">
 
     <link rel="stylesheet" href="../Styles/normalize.css">
     <link rel="stylesheet" href="../Styles/index.css">
-    <link rel="stylesheet" href="../Styles/.css">
+    <link rel="stylesheet" href="../Styles/formulario.css">
 
 <body>
    <header class="header">
@@ -44,7 +44,31 @@
     </header>
     <main class="main">
         <h1>Meus componentes</h1>
-        
+        <section class="contato">
+            <h2>Entre em contato</h2>
+            <div class="row">
+                <form method="get">
+                    <div class="row">
+                        <div>
+                            <label for="nome">Nome</label>
+                            <input type="text" name="nome" id="nome" placeholder="Nome completo">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+                        </div>
+                    </div>
+                    <label for="mensagem">Digite sua mensagem</label>
+                    <textarea name="mensagem" id="mensagem" rows="6" placeholder="Escreva sua mensagem"></textarea>
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
+                <address>
+                    <p><b>Endereço:</b> Praça Gov. Magalhães Pinto, 90 - Fabrício, Uberaba - MG</p>
+                    <p><b>Telefone:</b> (34)00000-0000</p>
+                    <p><b>Email:</b> yuridsd@hotmail.com</p>
+                </address>
+            </div>
+        </section>
     </main>
 </body>
 
