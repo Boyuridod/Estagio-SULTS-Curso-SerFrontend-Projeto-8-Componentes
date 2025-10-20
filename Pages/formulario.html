@@ -11,8 +11,19 @@
     <link rel="stylesheet" href="../Styles/index.css">
     <link rel="stylesheet" href="../Styles/formulario.css">
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "0qnU-smXKj6qbkcmb",
+            });
+            console.log("🟢🟢 email js inicializado com sucesso!")
+        })();
+    </script>
+
 <body>
-   <header class="header">
+    <header class="header">
         <nav class="nav">
             <a href="#">
                 <img src="../Public/Images/profile-picture.jpeg" alt="Foto de perfil" class="profile-image">
@@ -47,7 +58,7 @@
         <section class="contato">
             <h2>Entre em contato</h2>
             <div class="row">
-                <form method="get">
+                <form method="get" id="contact-form">
                     <div class="row">
                         <div>
                             <label for="nome">Nome</label>
@@ -70,6 +81,7 @@
             </div>
         </section>
     </main>
+    <script src="../Script/enviaremail.js"></script>
 </body>
 
 </html>

@@ -23,7 +23,7 @@ body{
 
 h1{
     font-size: 4rem;
-    color: var(--fourth-color);
+    color: var(--text-color);
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
