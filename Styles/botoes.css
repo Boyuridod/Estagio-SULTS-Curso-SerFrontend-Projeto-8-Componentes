@@ -1,0 +1,50 @@
+.botoes{
+    margin-bottom: 0;
+}
+
+.row{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 0;
+    justify-content: space-between;
+}
+
+.row > *{
+    flex: 1 0 0%;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    border: 2px solid var(--fifth-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: var(--background-color);
+    padding: 1em 1.2em;
+}
+
+.btn + .btn:not(.btn-full){
+    margin-left: 2rem;
+}
+
+.btn-stroke{
+    background-color: transparent;
+}
+
+.btn-big{
+    font-size: 2rem;
+}
+
+.btn-full{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-full + .btn-full{
+    margin-top: 2rem;
+}
+
+.btn:hover, .btn:focus{
+    border-color: var(--primary-color)
+}

@@ -1,0 +1,42 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td:last-child,
+.table th:last-child {
+    text-align: right;
+}
+
+.table:not(.zebra) tr:not(:last-child),
+.table:not(.zebra) th{
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.table td,
+.table th {
+    padding: 1.6rem;
+}
+
+.table th {
+    text-align: left;
+    text-transform: uppercase;
+    padding: 1.6rem;
+}
+
+.zebra tbody tr:nth-child(odd){
+    background-color: var(--secondary-color);
+}
+
+section + section{
+    margin-top: 5rem;
+}
+
+.vertical th:not(:last-child),
+.vertical td:not(:last-child){
+    border-right: 2px solid var(--primary-color);
+}
+
+section h3{
+    margin-bottom: 2rem;
+}
