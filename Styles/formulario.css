@@ -1,15 +1,19 @@
-.row {
-    display: flex;
-    gap: 4rem;
+:root{
+    --gap: 3rem;
 }
 
-.row>* {
+.row {
+    display: flex;
+    gap: var(--gap);
+}
+
+.row > *{
     flex: 1 0 0%;
 }
 
 .row .row {
     padding-top: 0;
-    gap: 4rem;
+    gap: var(--gap);
 }
 
 .contato form input:not(type="submit"),
@@ -32,7 +36,8 @@
     border-radius: 5px;
 }
 
-.contato form input[type="radio"] {
+.contato form input[type="radio"],
+.contato form input[type="chackbox"] {
     width: auto;
 }
 
@@ -50,4 +55,31 @@
 .btn:focus {
     background-color: var(--primary-color);
     color: var(--fifth-color);
+}
+
+.quiz{
+    width: calc(50% - (var(--gap) / 2));
+    margin-top: 2rem;
+}
+
+.form-quiz{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-quiz label[for="copia"]{
+    margin-top: 1rem;
+}
+
+.btn{
+    border: 1px solid var(--background-color);
+}
+
+.submit{
+    background-color: transparent;
+}
+
+.tecnologia{
+    padding: 2rem;
+    border-radius: 5px;
 }

@@ -80,6 +80,55 @@
                 </address>
             </div>
         </section>
+        <section class="quiz">
+            <h2>Quiz</h2>
+            <form action="" method="get" class="form-quiz">
+                <label for="tecnologia">Qual a sua linguagem prefetida?</label>
+                <select name="tecnologia" id="tecnologia" class="tecnologia">
+                    <option value="null" default>Selecione uma opção</option>
+                    <optgroup label="Frontend">
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                        <option value="js">JavaScript</option>
+                        <option value="typescript">TypeScript</option>
+                    </optgroup>
+
+                    <optgroup label="Backend">
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="csharp">C#</option>
+                        <option value="php">PHP</option>
+                        <option value="go">Go</option>
+                        <option value="ruby">Ruby</option>
+                    </optgroup>
+
+                    <optgroup label="Outras">
+                        <option value="cpp">C++</option>
+                        <option value="c">C</option>
+                        <option value="assembly">Assembly</option>
+                        <option value="swift">Swift</option>
+                        <option value="kotlin">Kotlin</option>
+                        <option value="rust">Rust</option>
+                        <option value="r">R</option>
+                        <option value="dart">Dart</option>
+                        <option value="perl">Perl</option>
+                        <option value="sql">SQL</option>
+                    </optgroup>
+                </select>
+                <h3>Nível de conhecimento</h3>
+                <label for="conhecimento">Baixo <input type="radio" name="nivel" id="" value="baixo"></label>
+                <label for="conhecimento">Medio <input type="radio" name="nivel" id="" value="medio"></label>
+                <label for="conhecimento">Alto <input type="radio" name="nivel" id="" value="alto"></label>
+                <label for="conhecimento">Profundo <input type="radio" name="nivel" id="" value="profundo"></label>
+                <label for="copia"><input type="checkbox" name="copia" value="true" id="">Me envie uma cópia</label>
+                <!-- TODO animar o sou humano -->
+                <label for="humano"><input type="checkbox" name="humano" value="true" id="">Sou um humano</label>
+                <div class="row">
+                    <input type="reset" value="Limpar" class="btn">
+                    <input type="submit" value="Enviar" class="btn submit">
+                </div>
+            </form>
+        </section>
     </main>
     <script src="../Script/enviaremail.js"></script>
 </body>
