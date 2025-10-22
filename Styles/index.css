@@ -1,7 +1,7 @@
-:root{
+:root {
     --primary-color: #FF7833;
     --secondary-color: #31333B;
-    --secondary-color-60:rgba(49, 51, 59, .6);
+    --secondary-color-60: rgba(49, 51, 59, .6);
     --secondary-color-80: rgba(49, 51, 59, .8);
     --third-color: #444856;
     --fourth-color: #7b7b7b;
@@ -10,11 +10,11 @@
     --text-color: #e7e7e7;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     display: flex;
     color: var(--text-color);
     background-color: var(--background-color);
@@ -23,48 +23,53 @@ body{
     line-height: 1.7;
 }
 
-h1{
+h1 {
     font-size: 4rem;
     color: var(--text-color);
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
-h2, h3, h4, h5, h6{
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--primary-color);
     margin: 0;
 }
 
-article{
+article {
     padding-top: 4rem;
 }
 
-.header, .main{
+.header,
+.main {
     font-size: 1.6rem;
 }
 
-.header{
+.header {
     background-color: var(--secondary-color);
     flex: 0 0 26rem;
 }
 
-.main{
+.main {
     background-color: var(--third-color);
     flex: 1 0;
     padding: 6.5rem 6rem 7.5rem;
 }
 
-a{
+a {
     color: inherit;
 }
 
-.profile-image{
+.profile-image {
     width: 10rem;
     height: 10rem;
     border-radius: 5rem;
 }
 
-.nav{
+.nav {
     text-align: right;
     padding: 6.5rem 2.4rem 2.4rem;
     position: sticky;
@@ -72,12 +77,12 @@ a{
     left: 0;
 }
 
-.nav ul{
+.nav ul {
     padding: 0;
     list-style-type: none;
 }
 
-.nav ul a{
+.nav ul a {
     display: block;
     text-decoration: none;
     padding: 1.2rem 0;
@@ -85,37 +90,57 @@ a{
     transition: padding-right .2s, background-color .4s;
 }
 
-.nav ul a:hover, .nav ul a:focus{
+.nav ul a:hover,
+.nav ul a:focus {
     background-color: var(--third-color);
     padding-right: 1rem;
 }
 
-.nav li{
+.nav li {
     border-bottom: 1px solid var(--fourth-color);
     padding: .4rem 0rem;
 }
 
-.article-highlight{
+.article-highlight {
     border-left: 2px solid var(--primary-color);
     padding-left: 2rem;
     padding-top: 0;
     margin-bottom: 5rem;
 }
 
-.objetivo{
+.objetivo {
     padding-top: 0;
 }
 
-.index-body{
+.index-body {
     background-image: url(../Public/Images/bg-unsplash.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.index-body main{
+.index-body main {
     background-color: var(--secondary-color-60);
 }
 
-.index-body header{
+.index-body header {
     background-color: var(--secondary-color-80);
+}
+
+.meus-dados a{
+    display: inline-block;
+}
+
+.meus-dados a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 2rem;
+    transition: transform .5s ease-in-out;
+}
+
+.meus-dados a:first-child{
+    margin-left: 0;
+}
+
+.meus-dados a:hover, .meus-dados a:focus {
+    transform: scale(1.4);
 }
