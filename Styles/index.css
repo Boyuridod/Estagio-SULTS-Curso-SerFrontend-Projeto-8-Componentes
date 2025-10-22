@@ -1,6 +1,8 @@
 :root{
     --primary-color: #FF7833;
     --secondary-color: #31333B;
+    --secondary-color-60:rgba(49, 51, 59, .6);
+    --secondary-color-80: rgba(49, 51, 59, .8);
     --third-color: #444856;
     --fourth-color: #7b7b7b;
     --fifth-color: #23252d;
@@ -44,7 +46,6 @@ article{
 .header{
     background-color: var(--secondary-color);
     flex: 0 0 26rem;
-
 }
 
 .main{
@@ -66,6 +67,9 @@ a{
 .nav{
     text-align: right;
     padding: 6.5rem 2.4rem 2.4rem;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 .nav ul{
@@ -100,4 +104,18 @@ a{
 
 .objetivo{
     padding-top: 0;
+}
+
+.index-body{
+    background-image: url(../Public/Images/bg-unsplash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-body main{
+    background-color: var(--secondary-color-60);
+}
+
+.index-body header{
+    background-color: var(--secondary-color-80);
 }
