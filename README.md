@@ -49,4 +49,3 @@ O foco principal é **reforçar a base em HTML e CSS**, treinando:
 **Yuri Duarte**
 📚 Estudante de Desenvolvimento Front-end
 💼 Estagiário na **SULTS**
-🔗 [LinkedIn](https://linkedin.com) | [Instagram](https://instagram.com) | [GitHub](https://github.com)
