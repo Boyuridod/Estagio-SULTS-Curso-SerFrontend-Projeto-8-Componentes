@@ -1,0 +1,28 @@
+.board{
+    background-image: url(../Public/Images/quadroBege.png);
+    background-repeat: repeat;
+    background-size: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    padding: 0;
+    margin: 3em 1em;
+}
+
+.postit{
+    background-image:
+        linear-gradient(135deg, transparent 4rem, var(--background-color) 4rem),
+        linear-gradient(135deg, transparent 4rem, aliceblue 4rem);
+    background-size: 6rem 6rem, 100%;
+    background-repeat: no-repeat;
+    color: black;
+    margin: 0 3rem;
+    padding: 2rem 2rem;
+    box-sizing: border-box;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+}
