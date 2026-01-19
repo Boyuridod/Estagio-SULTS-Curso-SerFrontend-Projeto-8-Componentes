@@ -1,6 +1,6 @@
 # 🧩 Projeto 08 — Meus Componentes
 
-Este repositório contém o **8º projeto** desenvolvido durante o curso **[SerFrontend](https://serfrontend.com/)**, que estou realizando como parte do meu **estágio na [SULTS](https://sults.com.br/)**.
+Este repositório contém o **8º projeto** desenvolvido durante o curso **[SerFrontend](https://serfrontend.com/)**.
 
 O objetivo deste projeto é **praticar a criação e estilização de componentes utilizando apenas HTML e CSS**, explorando diferentes elementos e boas práticas de estruturação visual.
 
@@ -48,4 +48,3 @@ O foco principal é **reforçar a base em HTML e CSS**, treinando:
 
 **Yuri Duarte**
 📚 Estudante de Desenvolvimento Front-end
-💼 Estagiário na **SULTS**
